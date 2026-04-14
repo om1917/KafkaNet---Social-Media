@@ -1,0 +1,402 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Query\\Post.Query.Api\\Post.Query.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\DotNet Microservices via Kafka\\CQRS\\CQRS.Core\\CQRS.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DotNet Microservices via Kafka\\CQRS\\CQRS.Core\\CQRS.Core.csproj",
+        "projectName": "CQRS.Core",
+        "projectPath": "C:\\DotNet Microservices via Kafka\\CQRS\\CQRS.Core\\CQRS.Core.csproj",
+        "packagesPath": "C:\\Users\\bhaisorO\\.nuget\\packages\\",
+        "outputPath": "C:\\DotNet Microservices via Kafka\\CQRS\\CQRS.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bhaisorO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://usnugetproxy.am.bm.net/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Common\\Post.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Common\\Post.Common.csproj",
+        "projectName": "Post.Common",
+        "projectPath": "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Common\\Post.Common.csproj",
+        "packagesPath": "C:\\Users\\bhaisorO\\.nuget\\packages\\",
+        "outputPath": "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bhaisorO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://usnugetproxy.am.bm.net/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\DotNet Microservices via Kafka\\CQRS\\CQRS.Core\\CQRS.Core.csproj": {
+                "projectPath": "C:\\DotNet Microservices via Kafka\\CQRS\\CQRS.Core\\CQRS.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Query\\Post.Query.Api\\Post.Query.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Query\\Post.Query.Api\\Post.Query.Api.csproj",
+        "projectName": "Post.Query.Api",
+        "projectPath": "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Query\\Post.Query.Api\\Post.Query.Api.csproj",
+        "packagesPath": "C:\\Users\\bhaisorO\\.nuget\\packages\\",
+        "outputPath": "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Query\\Post.Query.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bhaisorO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://usnugetproxy.am.bm.net/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\DotNet Microservices via Kafka\\CQRS\\CQRS.Core\\CQRS.Core.csproj": {
+                "projectPath": "C:\\DotNet Microservices via Kafka\\CQRS\\CQRS.Core\\CQRS.Core.csproj"
+              },
+              "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Common\\Post.Common.csproj": {
+                "projectPath": "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Common\\Post.Common.csproj"
+              },
+              "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj": {
+                "projectPath": "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj"
+              },
+              "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj": {
+                "projectPath": "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj",
+        "projectName": "Post.Query.Domain",
+        "projectPath": "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj",
+        "packagesPath": "C:\\Users\\bhaisorO\\.nuget\\packages\\",
+        "outputPath": "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Query\\Post.Query.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bhaisorO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://usnugetproxy.am.bm.net/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\DotNet Microservices via Kafka\\CQRS\\CQRS.Core\\CQRS.Core.csproj": {
+                "projectPath": "C:\\DotNet Microservices via Kafka\\CQRS\\CQRS.Core\\CQRS.Core.csproj"
+              },
+              "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Common\\Post.Common.csproj": {
+                "projectPath": "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Common\\Post.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj",
+        "projectName": "Post.Query.Infrastructure",
+        "projectPath": "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Query\\Post.Query.Infrastructure\\Post.Query.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\bhaisorO\\.nuget\\packages\\",
+        "outputPath": "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Query\\Post.Query.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bhaisorO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://usnugetproxy.am.bm.net/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\DotNet Microservices via Kafka\\CQRS\\CQRS.Core\\CQRS.Core.csproj": {
+                "projectPath": "C:\\DotNet Microservices via Kafka\\CQRS\\CQRS.Core\\CQRS.Core.csproj"
+              },
+              "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj": {
+                "projectPath": "C:\\DotNet Microservices via Kafka\\SocialMedia - Post\\Post.Query\\Post.Query.Domain\\Post.Query.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.14.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[9.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.14, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[9.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.310/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
